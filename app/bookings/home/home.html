@@ -1,0 +1,58 @@
+ <!-- Contents -->
+ <div class="container" >
+    <img src="../../../../TicketBooking/assets/images/banner.jpg" style="width:100%;" class="img-fluid">
+    <div class="my-5 text-center">
+        <h1>Book Tickets for event now, Limited Seats :)</h1>
+        <p class="text-muted">
+            For 18+ years old people only, Need to carry your goverment Identity for event. No cancellation of sold tickets.
+        </p>
+    </div>
+
+    <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal" name="seats" ng-model="seats" value=1>Single Person</h4>
+            </div>
+            <div class="card-body">
+                <h2 class="card-title pricing-card-title">
+                    <i class="fas fa-rupee-sign" name="price" ng-model="price" value=300></i> 300
+                </h2>
+                <a class="btn btn-lg btn-block btn-outline-primary" ng-click="onProceed(1,300)" >Proceed</a>
+            </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal" ng-model="seats" value=2>2 People</h4>
+            </div>
+            <div class="card-body">
+                <h2 class="card-title pricing-card-title">
+                    <i class="fas fa-rupee-sign"></i> 600
+                </h2>
+                <a class="btn btn-lg btn-block btn-outline-primary btn-primary" ng-click="onProceed(2,600)" >Proceed</a>
+            </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal" ng-model="seats" value=3>3 People</h4>
+            </div>
+            <div class="card-body">
+                <h2 class="card-title pricing-card-title">
+                    <i class="fas fa-rupee-sign"></i> 900
+                </h2>
+                <a class="btn btn-lg btn-block btn-outline-primary btn-primary" ng-click="onProceed(3,900)" >Proceed</a>
+            </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal" ng-model="seats" value=5>5 People</h4>
+            </div>
+            <div class="card-body">
+                <h2 class="card-title pricing-card-title">
+                    <i class="fas fa-rupee-sign" ></i> 1500
+                </h2>
+                <a class="btn btn-lg btn-block btn-outline-primary btn-primary" ng-click="onProceed(5,1500)" >Proceed</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contents ends-->
